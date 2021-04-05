@@ -3,7 +3,7 @@
     "document_id": "6QRe7JHCRAhtuZc5dOEp",
     "original_document_id": "8VrAIPnDuj41BSQiZhHX",
     "version": "27",
-    "lastChanged": "1617589582483",
+    "lastChanged": "1617590905454",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -51,8 +51,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
-                    "1617563351860307:10012",
                     "1617563351860628:10013",
                     "1617585275270945:470460"
                 ]
@@ -319,7 +317,7 @@
                     },
                     {
                         "k": "7755",
-                        "v": "cd7780351114c403a9a824fe33368364"
+                        "v": "69b0a5eb3a832af424fe618365401990"
                     },
                     {
                         "k": "7756",
@@ -409,15 +407,15 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-04-04T21:54:28",
+                        "lastModified": "2021-04-04T22:47:15",
                         "name": "Public",
-                        "hash": "fda8bde29eb669c7605a4b3314b63e5c",
+                        "hash": "7bcca370129897a54f8553be55b59d2e",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-04-04T21:54:28",
+                                "lastModified": "2021-04-04T22:47:15",
                                 "name": "DemonFace.js",
-                                "hash": "cd7780351114c403a9a824fe33368364",
+                                "hash": "69b0a5eb3a832af424fe618365401990",
                                 "children": ""
                             },
                             {

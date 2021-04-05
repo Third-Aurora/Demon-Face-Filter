@@ -8,21 +8,18 @@ script.createEvent("MouthOpenedEvent").bind(MouthOpened);
 script.createEvent("MouthClosedEvent").bind(MouthClosed);
 
 var desiredIntensity = 0;
-var speed = 4;
 
 function MouthOpened(){
     desiredIntensity = 1;
-    desiredAlpha = 1;
 }
 
 function MouthClosed(){
     desiredIntensity = 0;
-    desiredAlpha = 0;
 }
 
 function Update(){
     var currIntensity = script.faceStretch.getFeatureWeight("Feature0");
-    var intensity = lerp(currIntensity,desiredIntensity, getDeltaTime() * speed);
+    var intensity = lerp(currIntensity,desiredIntensity, getDeltaTime() * 4);
     script.faceStretch.setFeatureWeight("Feature0", intensity);
     script.faceMask.mainMaterial.mainPass.baseColor = new vec4(1, 1, 1, intensity);
     script.mouth.mainMaterial.mainPass.baseColor = new vec4(.15, .15, .15, intensity);
