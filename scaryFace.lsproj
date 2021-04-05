@@ -1,0 +1,643 @@
+{
+    "lens_id": "",
+    "document_id": "6QRe7JHCRAhtuZc5dOEp",
+    "original_document_id": "8VrAIPnDuj41BSQiZhHX",
+    "version": "27",
+    "lastChanged": "1617589582483",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "isAutoSaved": "false",
+    "api_level": "public",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "3",
+            "minor": "4",
+            "patch": "1",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "3",
+            "minor": "4",
+            "patch": "1",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Black"
+                    ],
+                    [
+                        "DemonFace"
+                    ],
+                    [
+                        "Sphere"
+                    ],
+                    [
+                        "ZombieMat"
+                    ],
+                    [
+                        "face-paint-templateFull"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "101:100",
+                    "1617563351860307:10012",
+                    "1617563351860628:10013",
+                    "1617585275270945:470460"
+                ]
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "icon_hash": "e0d6c5624ac3790dc3452892254228ab",
+            "icon_path": "icon.png",
+            "hints": [
+                "lens_hint_open_your_mouth"
+            ],
+            "lens": "Screamin Demon",
+            "applicability": "3",
+            "lens_descriptors": ""
+        },
+        "PreviewUiComponent": {
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "2"
+            },
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_ie_project_config": {
+                "back_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
+                "spectacles_preview_is_favorite": "false"
+            }
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                [
+                    "1617586115275351:585301",
+                    "1617586115275547:585302"
+                ]
+            ]
+        },
+        "Material::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        },
+        "Script::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "12",
+                    "uid": "1617564241479912:126820",
+                    "name": "Files\/File8.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1617567498057319:536184",
+                    "name": "Files\/File9.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "25",
+                    "uid": "1617568550161229:680449",
+                    "name": "Files\/File31",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "26",
+                    "uid": "1617583297177978:205583",
+                    "name": "Files\/File33",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "32",
+                    "uid": "1617585516998078:503415",
+                    "name": "Files\/File45.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                }
+            ],
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "InspectorComponent": {
+            "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": "",
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1617563351860307:10012",
+                "1": "1617563351860628:10013",
+                "2": "1617563351861765:10014",
+                "3": "1617563351976617:10077",
+                "4": "1617563381196699:14132",
+                "5": "1617563715594057:60381",
+                "6": "1617582477335215:101805",
+                "7": "1617585275270945:470460",
+                "8": "1617585517003527:503429",
+                "9": "1617586115275351:585301"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "2",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1",
+                    "colorCode": "20"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576",
+                    "colorCode": "21"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "8",
+                    "v": "Files\/File8.js"
+                },
+                {
+                    "k": "9",
+                    "v": "Files\/File9.pvr"
+                },
+                {
+                    "k": "10",
+                    "v": "Files\/File10.png"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.png"
+                },
+                {
+                    "k": "12",
+                    "v": "Files\/File12.pvr"
+                },
+                {
+                    "k": "31",
+                    "v": "Files\/File31"
+                },
+                {
+                    "k": "32",
+                    "v": "Files\/File32.lsmat"
+                },
+                {
+                    "k": "33",
+                    "v": "Files\/File33"
+                },
+                {
+                    "k": "34",
+                    "v": "Files\/File34.lsmat"
+                },
+                {
+                    "k": "45",
+                    "v": "Files\/File45.mesh"
+                },
+                {
+                    "k": "46",
+                    "v": "Files\/File46.mesh"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "7755",
+                        "v": "DemonFace.js"
+                    },
+                    {
+                        "k": "7756",
+                        "v": "face-paint-templateFull.png"
+                    },
+                    {
+                        "k": "7771",
+                        "v": "ZombieMat.lsmat"
+                    },
+                    {
+                        "k": "7772",
+                        "v": "Black.lsmat"
+                    },
+                    {
+                        "k": "7779",
+                        "v": "Sphere.mesh"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "967",
+                        "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
+                    },
+                    {
+                        "k": "7755",
+                        "v": "cd7780351114c403a9a824fe33368364"
+                    },
+                    {
+                        "k": "7756",
+                        "v": "95ad9469082b9dbbc073105aac38e1e8"
+                    },
+                    {
+                        "k": "7758",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "7759",
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
+                    },
+                    {
+                        "k": "7760",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "7761",
+                        "v": "24ab8c58917a949d3b55b5feffe3006b"
+                    },
+                    {
+                        "k": "7763",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "7764",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "7765",
+                        "v": "bca19bf2a7d17d262fc48187981dff7f"
+                    },
+                    {
+                        "k": "7767",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "7768",
+                        "v": "215d7621e80f815fafe7b25e0e2af885"
+                    },
+                    {
+                        "k": "7770",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "7771",
+                        "v": "1311f7ec8a1789870ba99179e62eb96f"
+                    },
+                    {
+                        "k": "7772",
+                        "v": "857e3856b76f5e7b81accff853a01837"
+                    },
+                    {
+                        "k": "7773",
+                        "v": "ffbce66d7c12d942b13208740e9d0059"
+                    },
+                    {
+                        "k": "7775",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "7776",
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
+                    },
+                    {
+                        "k": "7777",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "7778",
+                        "v": "c3a0563792690bf4c0828ace6f712100"
+                    },
+                    {
+                        "k": "7779",
+                        "v": "ffbce66d7c12d942b13208740e9d0059"
+                    },
+                    {
+                        "k": "7780",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "7781",
+                        "v": "ff22f38a29121f21d14eeb3874140921"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2021-04-04T21:54:28",
+                        "name": "Public",
+                        "hash": "fda8bde29eb669c7605a4b3314b63e5c",
+                        "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-04-04T21:54:28",
+                                "name": "DemonFace.js",
+                                "hash": "cd7780351114c403a9a824fe33368364",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-04-04T21:29:51",
+                                "name": "Black.lsmat",
+                                "hash": "857e3856b76f5e7b81accff853a01837",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-04-04T21:27:09",
+                                "name": "ZombieMat.lsmat",
+                                "hash": "1311f7ec8a1789870ba99179e62eb96f",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-04-04T21:18:36",
+                                "name": "Sphere.mesh",
+                                "hash": "ffbce66d7c12d942b13208740e9d0059",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-03-25T07:12:36",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-04-04T16:17:54",
+                                "name": "face-paint-templateFull.png",
+                                "hash": "95ad9469082b9dbbc073105aac38e1e8",
+                                "children": ""
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Render Target",
+                        "type": "1",
+                        "subtype": "1",
+                        "resourceId": "1",
+                        "dependency": "0",
+                        "uid": "1:1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Device Camera Texture",
+                        "type": "1",
+                        "subtype": "3",
+                        "resourceId": "2",
+                        "dependency": "0",
+                        "uid": "2:2",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "DemonFace",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "12",
+                        "dependency": "0",
+                        "uid": "1617564241479912:126820",
+                        "fileId": "8",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7755",
+                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-KJtarm\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "face-paint-templateFull",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "13",
+                        "dependency": "0",
+                        "uid": "1617567498057319:536184",
+                        "fileId": "9",
+                        "originalId": "10",
+                        "publicId": "7756",
+                        "source": "\/Users\/matthewhallberg\/Desktop\/face-paint-templateFull.png",
+                        "additional": ""
+                    },
+                    {
+                        "name": "ZombieMat",
+                        "type": "2",
+                        "subtype": "0",
+                        "resourceId": "25",
+                        "dependency": "0",
+                        "uid": "1617568550161229:680449",
+                        "fileId": "31",
+                        "originalId": "32",
+                        "publicId": "7771",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Black",
+                        "type": "2",
+                        "subtype": "0",
+                        "resourceId": "26",
+                        "dependency": "0",
+                        "uid": "1617583297177978:205583",
+                        "fileId": "33",
+                        "originalId": "34",
+                        "publicId": "7772",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Sphere",
+                        "type": "3",
+                        "subtype": "0",
+                        "resourceId": "32",
+                        "dependency": "0",
+                        "uid": "1617585516998078:503415",
+                        "fileId": "45",
+                        "originalId": "46",
+                        "publicId": "7779",
+                        "source": "\/private\/var\/folders\/tn\/dsdmxh_s18bftmhwc7brpjdc0000gn\/T\/Lens Studio-IgDqiQ\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                        "additional": ""
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": ""
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "22": "",
+            "23": "",
+            "24": "",
+            "25": "",
+            "26": "",
+            "27": "",
+            "28": "",
+            "29": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        },
+        "Compression::IController": {
+            "compression_info": [
+                {
+                    "k": "1617567498057319:536184",
+                    "v": {
+                        "infos": {
+                            "originalSize": "807536",
+                            "compressedSize": "458787",
+                            "originalRAM": "4186304",
+                            "compressedRAM": "524480",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "11",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "95ad9469082b9dbbc073105aac38e1e8",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "12"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "AssetLibController": {
+            "itemUidToID": ""
+        }
+    }
+}
