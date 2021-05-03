@@ -3,7 +3,7 @@
     "document_id": "6QRe7JHCRAhtuZc5dOEp",
     "original_document_id": "8VrAIPnDuj41BSQiZhHX",
     "version": "27",
-    "lastChanged": "1617590905454",
+    "lastChanged": "1620081174490",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -22,7 +22,7 @@
             "type": "Public",
             "major": "3",
             "minor": "4",
-            "patch": "1",
+            "patch": "2",
             "build": "0"
         }
     },
@@ -63,7 +63,7 @@
                 "lens_hint_open_your_mouth"
             ],
             "lens": "Screamin Demon",
-            "applicability": "3",
+            "applicability": "1",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
